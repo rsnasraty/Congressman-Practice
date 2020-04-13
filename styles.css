@@ -1,0 +1,12 @@
+body {
+    height: 200px;
+    background-color: rgb(187, 186, 226); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(212, 232, 245) , rgb(216, 255, 213)); /* Standard syntax (must be last) */
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 20px;
+    flex-wrap: nowrap;
+  }
